@@ -1,0 +1,101 @@
+* {
+  background: #a9cce3;
+}
+
+.heading-style {
+  padding: 30px 0px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 2;
+  font-weight: 500;
+  color: #838383;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.Cards {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  margin: 6%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  width: 21.25%;
+  border-radius: 12px;
+  float: left;
+  box-shadow: 0px 13px 10px -7px rgba(0 0 0 0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0 0 0 0.1);
+  transform: scale(1.05, 1.05);
+}
+.card_image {
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_info {
+  font-family: "Lato", sans-serif;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: #fff;
+  padding: 16px 24px 24px 24px;
+}
+.card_category {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #fff;
+}
+.card_title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  background-color: #fff;
+}
+button {
+  padding: 5px 8px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.slot-inner {
+  padding: 0px 0px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 2;
+  font-weight: 500;
+  color: #838383;
+  background-color: #d3d3d3;
+  margin-bottom: 30px;
+}
+.heading-style2 {
+  padding: 0px 0px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2;
+  font-weight: 500;
+  color: #838383;
+  background: #d3d3d3;
+}
